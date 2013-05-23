@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<layerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="1d3e9024-a601-453c-9ba4-36ba8aba3974" xmlns="http://schemas.microsoft.com/VisualStudio/TeamArchitect/LayerDesigner">
+  <layers>
+    <layer Id="58ecdb88-f280-4fa4-8b48-a16b5ba7291e" name="Web Server">
+      <childLayers>
+        <layer Id="b4c9f19f-4ce7-47ad-9c63-edbcb323da89" name="Control">
+          <dependencyToLayers>
+            <dependencyFromLayerToLayer Id="b88e5f7e-ee98-42e9-8dcc-7b3703db2044" direction="Forward">
+              <layerMoniker Id="7b78b1d8-4d99-4912-955f-12c9f770b997" />
+            </dependencyFromLayerToLayer>
+            <dependencyFromLayerToLayer Id="5f00b35f-dbe9-4490-828f-054b0fc54631" direction="Forward">
+              <layerMoniker Id="70395bb0-68eb-4e66-9b5c-d3aba44f9237" />
+            </dependencyFromLayerToLayer>
+            <dependencyFromLayerToLayer Id="2c0a83c1-c6e1-490b-918c-e9cafa666f6f" direction="Forward">
+              <layerMoniker Id="6e3c49dc-723e-4507-a87c-d5950a16ea8e" />
+            </dependencyFromLayerToLayer>
+          </dependencyToLayers>
+        </layer>
+        <layer Id="2c2281c6-53ef-4555-acbf-ed6ad3c95d8f" name="Sample.UI" />
+        <layer Id="7b78b1d8-4d99-4912-955f-12c9f770b997" name="Sample.UI.Core">
+          <dependencyToLayers>
+            <dependencyFromLayerToLayer Id="d67d9a4e-835e-4cfd-9b1f-23a18649e80e" direction="Forward">
+              <layerMoniker Id="2c2281c6-53ef-4555-acbf-ed6ad3c95d8f" />
+            </dependencyFromLayerToLayer>
+          </dependencyToLayers>
+        </layer>
+        <layer Id="70395bb0-68eb-4e66-9b5c-d3aba44f9237" name="Sample.UI.Module">
+          <dependencyToLayers>
+            <dependencyFromLayerToLayer Id="d696f825-465a-42ac-a796-8ab568b5ca16" direction="Forward">
+              <layerMoniker Id="2c2281c6-53ef-4555-acbf-ed6ad3c95d8f" />
+            </dependencyFromLayerToLayer>
+          </dependencyToLayers>
+        </layer>
+        <layer Id="6e3c49dc-723e-4507-a87c-d5950a16ea8e" name="Sample.UI.&#xD;&#xA;OtherModule">
+          <dependencyToLayers>
+            <dependencyFromLayerToLayer Id="3dc17032-4787-4e49-bb90-7acd803a3f99" direction="Forward">
+              <layerMoniker Id="2c2281c6-53ef-4555-acbf-ed6ad3c95d8f" />
+            </dependencyFromLayerToLayer>
+          </dependencyToLayers>
+        </layer>
+      </childLayers>
+    </layer>
+  </layers>
+</layerModel>

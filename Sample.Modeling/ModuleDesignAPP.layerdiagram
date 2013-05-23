@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<layerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="397f42ed-46a8-4092-80d1-7ad26fc45498" xmlns="http://schemas.microsoft.com/VisualStudio/TeamArchitect/LayerDesigner">
+  <layers>
+    <layer Id="649701d3-ffea-47a2-888b-d3ba5da48c5d" name="Sample.App">
+      <childLayers>
+        <layer Id="3ae4e953-1947-4baf-a9a7-8088aeb6d676" name="Module">
+          <childLayers>
+            <layer Id="2b8a3b90-9bcc-4101-8a4b-3b29936cd284" name="Module.Model">
+              <dependencyToLayers>
+                <dependencyFromLayerToLayer Id="db16684e-1759-4b1a-9527-d8914820f6e0" direction="Forward">
+                  <layerMoniker Id="f2b216f5-cd8d-479d-9ea9-76907e821a7e" />
+                </dependencyFromLayerToLayer>
+              </dependencyToLayers>
+            </layer>
+            <layer Id="c3cb33ff-6513-41d1-8001-0da459156c9f" name="Module.ViewModel">
+              <dependencyToLayers>
+                <dependencyFromLayerToLayer Id="674ac8fe-1b28-4c00-aa66-57a08d327d95" direction="Forward">
+                  <layerMoniker Id="f2b216f5-cd8d-479d-9ea9-76907e821a7e" />
+                </dependencyFromLayerToLayer>
+              </dependencyToLayers>
+            </layer>
+            <layer Id="f2b216f5-cd8d-479d-9ea9-76907e821a7e" name="Module.Repository">
+              <dependencyToLayers>
+                <dependencyFromLayerToLayer Id="4dca0a14-2a1c-4fb8-b699-e4dbf0ac5c4c" direction="Forward">
+                  <layerMoniker Id="f7f17e66-80fa-4593-aa05-412627239b19" />
+                </dependencyFromLayerToLayer>
+              </dependencyToLayers>
+            </layer>
+            <layer Id="f7f17e66-80fa-4593-aa05-412627239b19" name="Module.Controller">
+              <dependencyToLayers>
+                <dependencyFromLayerToLayer Id="4e546efb-2d91-495c-b013-c38dbfe7e8d6" direction="Forward">
+                  <layerMoniker Id="e509092a-c91f-4133-8d0d-8ac2ee809fd1" />
+                </dependencyFromLayerToLayer>
+                <dependencyFromLayerToLayer Id="ce79fbc8-972b-4bc6-9d4c-1523b95f9b40" direction="Forward">
+                  <layerMoniker Id="bad0fa46-63b9-4cb6-a177-cf5894d8fa7c" />
+                </dependencyFromLayerToLayer>
+              </dependencyToLayers>
+            </layer>
+            <layer Id="bad0fa46-63b9-4cb6-a177-cf5894d8fa7c" name="Module.Proxy" />
+            <layer Id="e509092a-c91f-4133-8d0d-8ac2ee809fd1" name="Module.Service" />
+          </childLayers>
+        </layer>
+      </childLayers>
+    </layer>
+  </layers>
+</layerModel>
